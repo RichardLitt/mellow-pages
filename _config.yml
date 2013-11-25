@@ -9,7 +9,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Mellow Pages Library
-tagline: Bogart Street, Bushwick
+#tagline: Bogart Street, Bushwick
 author :
   name : Jacob Perkins, Matt Nelson, &amp; Richard Littauer. Photo &copy; Cameron Blaylock. 
   email : richard.littauer@gmail.com
@@ -54,7 +54,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
+  BASE_PATH : http://www.burntfen.com/mellow-pages
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
