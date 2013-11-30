@@ -46,6 +46,7 @@ a {
 
 footer {
 	margin-left: 30px;
+	padding-top: 20px;
 	p {
 		color: @logoText;
 	}
@@ -122,6 +123,13 @@ footer {
 	color: @secondaryText;
 	font-size: 18px;
 	line-height: 24px;
+	a {
+		color: @linkBlue;
+		&:hover, &:focus {
+			color: blue;
+			text-decoration: none;
+		}
+	}
 }
 
 // Media queries
