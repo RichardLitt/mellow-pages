@@ -2,6 +2,7 @@
 http://www.burntfen.com/mellow-pages/about.html
 http://www.burntfen.com/mellow-pages/archive.html
 http://www.burntfen.com/mellow-pages/atom.xml
+http://www.burntfen.com/mellow-pages/calendar.html
 http://www.burntfen.com/mellow-pages/categories.html
 http://www.burntfen.com/mellow-pages/index.html
 http://www.burntfen.com/mellow-pages/pages.html

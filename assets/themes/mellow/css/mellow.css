@@ -19,6 +19,7 @@ a:focus {
 }
 footer {
   margin-left: 30px;
+  padding-top: 20px;
 }
 footer p {
   color: #bc902e;
@@ -92,6 +93,14 @@ footer p {
 .content h1 {
   color: #302e2d;
   font-style: italic;
+}
+.content a {
+  color: #428bca;
+}
+.content a:hover,
+.content a:focus {
+  color: blue;
+  text-decoration: none;
 }
 @media (min-width: 992px) {
   .navboxes {
