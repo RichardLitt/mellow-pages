@@ -88,7 +88,7 @@ footer {
 	margin-left: 30px;
 }
 
-.navbox span {
+.navbox {
 	.rounded-corners;
 	background-color: @logoBackground;
 	color: @logoText;
@@ -134,17 +134,60 @@ footer {
 
 // Media queries
 
-@media (min-width: @screen-md-min) { 
+@media (max-width: @screen-sm-min) {
+	body {
+		background-color: @logoText;
+	}
+	.logo {
+		margin-left: auto;
+		margin-right: auto;
+		.name {
+			padding-left: 0px;
+			padding-right: 0px;
+			font-size: 30px;
+		}
+	}
+	.navbox-container {
+		margin: 10px auto 0px auto;
+		text-align: center;
+		&:last {
+			margin-bottom: 20px;
+		}
+	}
+	.navboxes {
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.navbox {
+		margin: 10px auto;
+		&:first {
+			margin-left: auto;
+		}
+		&:last {
+			margin-right: auto;
+		}
+	}
+	.wrapper {
+		margin-bottom: -40px;
+	}
+	footer, .push {
+		background-color: @logoBackground;
+		height: 40px;
+		padding-top: 0px;
+	}
+}
+
+@media (min-width: @screen-sm-min) { 
 	.navboxes {
 		max-width: 240px;
-		.navbox {
+		.navbox-container {
 			margin-left: auto;
 			margin-right: auto;
 		}
 	}
 	.content {	
 		h1 {
-			padding-top: 20px;
+			padding-top: 5px;
 		}
 		.rounded-corners;  
 	}

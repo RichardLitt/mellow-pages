@@ -57,7 +57,7 @@ footer p {
   margin-top: 10px;
   margin-left: 30px;
 }
-.navbox span {
+.navbox {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -74,7 +74,7 @@ footer p {
   display: inline-block;
   height: 30px;
 }
-.navbox span i {
+.navbox i {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -102,11 +102,54 @@ footer p {
   color: blue;
   text-decoration: none;
 }
-@media (min-width: 992px) {
+@media (max-width: 768px) {
+  body {
+    background-color: #bc902e;
+  }
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo .name {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 30px;
+  }
+  .navbox-container {
+    margin: 10px auto 0px auto;
+    text-align: center;
+  }
+  .navbox-container:last {
+    margin-bottom: 20px;
+  }
+  .navboxes {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .navbox {
+    margin: 10px auto;
+  }
+  .navbox:first {
+    margin-left: auto;
+  }
+  .navbox:last {
+    margin-right: auto;
+  }
+  .wrapper {
+    margin-bottom: -40px;
+  }
+  footer,
+  .push {
+    background-color: #302e2d;
+    height: 40px;
+    padding-top: 0px;
+  }
+}
+@media (min-width: 768px) {
   .navboxes {
     max-width: 240px;
   }
-  .navboxes .navbox {
+  .navboxes .navbox-container {
     margin-left: auto;
     margin-right: auto;
   }
@@ -118,6 +161,6 @@ footer p {
     border-radius: 5px;
   }
   .content h1 {
-    padding-top: 20px;
+    padding-top: 5px;
   }
 }
