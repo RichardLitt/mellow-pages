@@ -135,6 +135,9 @@ footer {
 // Media queries
 
 @media (max-width: @screen-sm-min) {
+	body {
+		background-color: @logoText;
+	}
 	.logo {
 		margin-left: auto;
 		margin-right: auto;
@@ -145,25 +148,37 @@ footer {
 		}
 	}
 	.navbox-container {
-		margin-right: auto;
-		margin-left: auto;
-
+		margin: 10px auto 0px auto;
+		text-align: center;
+		&:last {
+			margin-bottom: 20px;
+		}
 	}
-	.navbox-container {
-		margin-top: 5px;
+	.navboxes {
+		margin-top: 0px;
+		margin-left: 0px;
+		padding-bottom: 20px; 
+	}
+	.navbox {
+		margin: 10px auto;
+		&:first {
+			margin-left: auto;
+		}
+		&:last {
+			margin-right: auto;
+		}
 	}
 	.wrapper {
-		margin-bottom: -20px;
+		margin-bottom: -40px;
 	}
 	footer, .push {
-		height: 20px;
-	}
-	.content h1 {
-		padding-top: 15px;
+		background-color: @logoBackground;
+		height: 40px;
+		padding-top: 0px;
 	}
 }
 
-@media (min-width: @screen-md-min) { 
+@media (min-width: @screen-sm-min) { 
 	.navboxes {
 		max-width: 240px;
 		.navbox-container {
@@ -173,7 +188,7 @@ footer {
 	}
 	.content {	
 		h1 {
-			padding-top: 20px;
+			padding-top: 5px;
 		}
 		.rounded-corners;  
 	}
