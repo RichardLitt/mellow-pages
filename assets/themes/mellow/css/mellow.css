@@ -53,6 +53,9 @@ footer p {
   padding-bottom: 23px;
   margin-bottom: 50px;
 }
+form {
+  margin: 30px auto;
+}
 .navboxes {
   margin-top: 10px;
   margin-left: 30px;
