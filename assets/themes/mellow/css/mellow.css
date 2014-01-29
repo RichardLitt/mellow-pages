@@ -81,10 +81,20 @@ form {
   padding-left: 10px;
   padding-right: 10px;
 }
+.posts {
+  height: auto;
+}
+.posts ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.posts .date {
+  font-style: normal;
+}
 .content {
   margin-top: 90px;
   padding-bottom: 20px;
-  background-color: #bc902e;
+  background-color: #fbfbfb;
   color: #302e2d;
   font-size: 18px;
   line-height: 24px;

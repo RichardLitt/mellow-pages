@@ -91,14 +91,15 @@
                 <span class="navbox"><a href="https://www.goodreads.com/review/list/17277906?shelf=%23ALL%23" target="_blank">Catalog on Goodreads</a></span>
               </div>
 
-              <!--div class="navbox">
-                <span><a href="/press.html">Press</a></span>
-              </div -->
+              <div class="navbox posts">
+                <h4>New Posts</h4>
+                {% assign posts_collate = site.posts %}
+                {% include JB/posts_collate %}
+              </div>
             </div>
           </div>
           <div class="col-md-8">
           </div>
-
         </div>
       </div>
       
