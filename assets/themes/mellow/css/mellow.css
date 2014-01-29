@@ -149,6 +149,9 @@ form {
   .navbox:last {
     margin-right: auto;
   }
+  .content {
+    padding-top: 10px;
+  }
   .wrapper {
     margin-bottom: -40px;
   }
