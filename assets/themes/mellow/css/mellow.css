@@ -81,6 +81,18 @@ form {
   padding-left: 10px;
   padding-right: 10px;
 }
+#main-top-nav {
+  margin: 20px 0px 5px;
+}
+#main-top-nav .navbox {
+  margin: 0px;
+}
+#main-bottom-nav {
+  margin: 5px 0px 20px;
+}
+#main-bottom-nav .navbox {
+  margin: 0px;
+}
 .posts {
   height: auto;
 }
