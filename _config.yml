@@ -11,7 +11,7 @@ pygments: true
 title : Mellow Pages Library
 #tagline: Bogart Street, Bushwick
 author :
-  name : "Jacob Perkins, Matt Nelson, &amp; <a href='http://www.burntfen.com'>Richard Littauer</a>. Photo &copy; Cameron Blaylock." 
+  name : "Jacob Perkins & Matt Nelson. Web: <a href='http://www.burntfen.com'>Richard Littauer</a>. Photo &copy; Cameron Blaylock." 
   email : richard.littauer@gmail.com
   github : richardlitt
   twitter : richlitt
