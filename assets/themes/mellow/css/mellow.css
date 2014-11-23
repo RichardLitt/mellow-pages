@@ -5,6 +5,7 @@
 body {
   background: #302e2d url('../img/CameronBlaylock_MellowPages_forweb-2.jpg') center top no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 a {
   color: #bc902e;
