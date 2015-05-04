@@ -60,6 +60,7 @@
               </div>
 
               <div class="navbox-container" id="main-bottom-nav">
+                <span class="navbox"><a href="{{ BASE_PATH }}/join/">Join</a></span>
                 <span class="navbox"><a href="{{ BASE_PATH }}/mailing/">Mail</a></span>
                 <span class="navbox"><a href="{{ BASE_PATH }}/calendar.html">Calendar</a></span>
               </div>
@@ -88,6 +89,14 @@
                     <i class="fa fa-instagram">
                     </i>
                   </a>
+                </span>
+              </div>
+
+              <div class="navbox-container">
+                <span class="navbox posts">
+                  <h4>New Posts</h4>
+                  {% assign posts_collate = site.posts %}
+                  {% include JB/posts_collate %}
                 </span>
               </div>
             </div>
